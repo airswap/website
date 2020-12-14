@@ -1,0 +1,28 @@
+{
+  "name": "airswap",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "export": "next export && touch out/.nojekyll && touch out/CNAME && echo \"airswap.io\" >> out/CNAME"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "classnames": "^2.2.6",
+    "express": "^4.17.1",
+    "next": "^10.0.3",
+    "next-compose-plugins": "^2.2.0",
+    "next-images": "^1.2.0",
+    "next-optimized-images": "^2.5.4",
+    "next-routes": "^1.4.2",
+    "node-sass": "^4.13.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-icons": "^3.8.0",
+    "react-scroll-parallax": "^2.2.0",
+    "react-transition-group": "^4.3.0",
+    "styled-components": "^5.2.1"
+  }
+}
