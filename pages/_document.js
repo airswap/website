@@ -1,5 +1,5 @@
 import React from 'react';
-import Document, { Head, Main, NextScript } from 'next/document';
+import Document, { Head, Main, NextScript, Html } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 import { SiteConfig } from '../constants/siteConfig'
 
@@ -40,14 +40,9 @@ export default class MyDocument extends Document {
    */
   render() {
     return (
-      <html lang="en" dir="ltr">
+      <Html lang="en" dir="ltr">
         <Head>
           <meta charSet="utf-8" />
-          {/* Use minimum-scale=1 to enable GPU rasterization */}
-          <meta
-            name="viewport"
-            content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"
-          />
           <meta name="theme-color" content="#ffffff" />
           <link
             href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Source+Sans+Pro:400,600"
@@ -58,7 +53,7 @@ export default class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     );
   }
 }
