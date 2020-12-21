@@ -16,8 +16,7 @@ jobs:
       - name: Install and Build 🔧
         uses: actions/setup-node@v1
       - run: npm install
-      - run: npm run build
-      - run: npm run export
+      - run: npm run build:production
         env:
           CI: true
 
@@ -26,5 +25,5 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: out # The folder the action should deploy.
+          FOLDER: build # The folder the action should deploy.
           CLEAN: true # Automatically remove deleted files from the deploy branch
