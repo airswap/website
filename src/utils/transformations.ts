@@ -12,7 +12,8 @@ export const getFormattedNumber = (config: FormattedNumberConfig) => {
   let new_num = num;
   let is_thousand = false;
   if (new_num > 999) {
-    new_num = new_num / 1000;
+    new_num = Math.round(new_num / 10);
+    new_num = new_num/ 100;
     is_thousand = true;
   }
   const adjustedDigits = new_num.toString().indexOf('.') !== -1 ? digits + 1 : digits;
