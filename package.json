@@ -1,0 +1,64 @@
+{
+  "name": "@airswap/explorer",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "homepage": "./",
+  "scripts": {
+    "start:dev": "HTTPS=false PORT=3000 REACT_APP_ENVIRONMENT='development' react-app-rewired start",
+    "start:prod": "HTTPS=true PORT=3001 REACT_APP_ENVIRONMENT='production' react-app-rewired start",
+    "start": "yarn start:dev",
+    "build": "react-app-rewired build",
+    "build:production": "REACT_APP_SERVER_ENV=production REACT_APP_ENVIRONMENT=production ENV=production GENERATE_SOURCEMAP=false CI=false yarn build",
+    "build:development": "REACT_APP_SERVER_ENV=development REACT_APP_ENVIRONMENT=development ENV=development GENERATE_SOURCEMAP=false CI=false yarn build",
+    "prettier:run-all": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "types": "tsc",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint-staged": "lint-staged"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-class-property": "^1.1.0",
+    "eslint-plugin-jest": "^22.2.1",
+    "eslint-plugin-prettier": "^3.0.0",
+    "lint-staged": "^7.3.0",
+    "redux-devtools-extension": "^2.13.5"
+  },
+  "dependencies": {
+    "@types/moment": "^2.13.0",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-redux": "^7.1.0",
+    "@types/styled-components": "^4.1.16",
+    "airswap.js": "0.1.173",
+    "babel-loader": "8.0.4",
+    "babel-plugin-react-intl-auto": "^1.7.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "customize-cra": "^1.0.0",
+    "gensync": "^1.0.0-beta.2",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "query-string": "^6.9.0",
+    "react": "^16.11.0",
+    "react-app-rewired": "^2.1.8",
+    "react-dom": "^16.11.0",
+    "react-intl": "^2.8.0",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "2.1.3",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^3.0.1",
+    "styled-components": "^5.2.1",
+    "typescript": "<3.6.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "engines": {
+    "node": ">=10.10.0"
+  }
+}
