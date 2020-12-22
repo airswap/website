@@ -1,0 +1,9 @@
+{
+  "main.js": "./static/js/main.be569fdb.chunk.js",
+  "static/js/1.71ee7398.chunk.js": "./static/js/1.71ee7398.chunk.js",
+  "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
+  "static/media/airswap-logo.e6fd2095.svg": "./static/media/airswap-logo.e6fd2095.svg",
+  "index.html": "./index.html",
+  "precache-manifest.f79b376cbb676688f0c68ae5b7d47bea.js": "./precache-manifest.f79b376cbb676688f0c68ae5b7d47bea.js",
+  "service-worker.js": "./service-worker.js"
+}
