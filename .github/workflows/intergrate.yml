@@ -15,8 +15,8 @@ jobs:
 
       - name: Install and Build 🔧
         uses: actions/setup-node@v1
-      - run: npm install
-      - run: npm run build:production
+      - run: yarn install
+      - run: REACT_APP_SERVER_ENV=production REACT_APP_ENVIRONMENT=production ENV=production GENERATE_SOURCEMAP=false CI=false yarn build
         env:
           CI: true
 

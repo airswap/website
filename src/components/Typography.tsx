@@ -22,7 +22,36 @@ export const BaseText = styled.p<TypographyProps>`
   cursor: inherit;
 `;
 
+export const H1 = styled(BaseText)`
+  font-size: 46px;
+  letter-spacing: -1px;
+  line-height: 51px;
+`;
+
+export const H2 = styled(BaseText)`
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 1;
+`;
+
+export const H3 = styled(BaseText)`
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: calc(12 / 10);
+`;
+
+export const H4 = styled(BaseText)`
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: calc(12 / 10);
+`;
+
+export const H5 = styled(BaseText)`
+  font-size: 22px;
+  letter-spacing: 0;
+`;
+
 export const H6 = styled(BaseText)`
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 18px;
+  letter-spacing: 0;
 `;

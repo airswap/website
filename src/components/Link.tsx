@@ -4,6 +4,7 @@ import styled from 'styled-components';
 const LinkEl = styled.a`
   cursor: pointer;
   text-decoration: none;
+  color: #ffffff;
 `;
 
 interface LinkProps {
