@@ -1,6 +1,7 @@
 import React from 'react';
 
 import ReduxProvider from './providers/ReduxProvider';
+import ThemeProvider from './providers/ThemeProvider';
 import Header from './Header';
 import Footer from './Footer';
 import { AppContainer, ContentContainer } from './styles';
@@ -11,15 +12,15 @@ import Pages from '../widgets/Pages';
 function App() {
   return (
     <AppContainer>
-      <Header />
+      <Header/>
       <ContentContainer>
-        <Trades />
-        <Plugins />
-        <Pages />
+        <Trades/>
+        <Plugins/>
+        <Pages/>
       </ContentContainer>
-      <Footer />
+      <Footer/>
     </AppContainer>
   );
 }
 
-export default ReduxProvider(App);
+export default ReduxProvider(ThemeProvider(App));

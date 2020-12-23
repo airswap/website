@@ -5,8 +5,6 @@ import { H6 } from '../components/Typography';
 
 export const AppContainer = styled(Flex)`
   position: relative;
-  background: #1a1b1e;
-  color: #ffffff;
 `;
 
 export const HeaderContainer = styled(Flex).attrs({ direction: 'row', justify: 'space-between' })`
@@ -32,7 +30,6 @@ export const MenuContainer = styled(Flex).attrs({ direction: 'row' })``;
 export const LinkContainer = styled(Flex).attrs({ direction: 'row' })``;
 
 export const LinkText = styled(H6)`
-  color: #ffffff;
 `;
 
 export const FooterContainer = styled(Flex).attrs({ direction: 'row', justify: 'space-between' })`

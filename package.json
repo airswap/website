@@ -50,6 +50,7 @@
     "redux-thunk": "^2.3.0",
     "reselect": "^3.0.1",
     "styled-components": "^5.2.1",
+    "styled-reset": "^4.3.3",
     "typescript": "<3.6.0"
   },
   "browserslist": [
