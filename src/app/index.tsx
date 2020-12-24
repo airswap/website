@@ -12,13 +12,13 @@ import Pages from '../widgets/Pages';
 function App() {
   return (
     <AppContainer>
-      <Header/>
+      <Header />
       <ContentContainer>
-        <Trades/>
-        <Plugins/>
-        <Pages/>
+        <Trades />
+        <Plugins />
+        <Pages />
       </ContentContainer>
-      <Footer/>
+      <Footer />
     </AppContainer>
   );
 }

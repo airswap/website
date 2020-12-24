@@ -29,8 +29,7 @@ export const MenuContainer = styled(Flex).attrs({ direction: 'row' })``;
 
 export const LinkContainer = styled(Flex).attrs({ direction: 'row' })``;
 
-export const LinkText = styled(H6)`
-`;
+export const LinkText = styled(H6)``;
 
 export const FooterContainer = styled(Flex).attrs({ direction: 'row', justify: 'space-between' })`
   width: 100%;
