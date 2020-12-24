@@ -1,6 +1,7 @@
 import React from 'react';
 
 import ReduxProvider from './providers/ReduxProvider';
+import ThemeProvider from './providers/ThemeProvider';
 import Header from './Header';
 import Footer from './Footer';
 import { AppContainer, ContentContainer } from './styles';
@@ -22,4 +23,4 @@ function App() {
   );
 }
 
-export default ReduxProvider(App);
+export default ReduxProvider(ThemeProvider(App));
