@@ -1,9 +1,15 @@
 {
-  "main.js": "./static/js/main.94df2495.chunk.js",
-  "static/js/1.6c6fd871.chunk.js": "./static/js/1.6c6fd871.chunk.js",
+  "main.js": "./static/js/main.d19b6d64.chunk.js",
+  "static/js/1.83f8a6e7.chunk.js": "./static/js/1.83f8a6e7.chunk.js",
   "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
+  "static/media/arrow-right.d6d941b5.svg": "./static/media/arrow-right.d6d941b5.svg",
+  "static/media/RobotoMono-Regular.ttf": "./static/media/RobotoMono-Regular.b4618f1f.ttf",
+  "static/media/RobotoMono-Bold.ttf": "./static/media/RobotoMono-Bold.c0c4a337.ttf",
+  "static/media/Lora-Regular.ttf": "./static/media/Lora-Regular.4b658006.ttf",
+  "static/media/Lora-Bold.ttf": "./static/media/Lora-Bold.84ece8c8.ttf",
   "static/media/airswap-logo.e6fd2095.svg": "./static/media/airswap-logo.e6fd2095.svg",
+  "static/media/RobotoMono-Medium.ttf": "./static/media/RobotoMono-Medium.5a45b286.ttf",
   "index.html": "./index.html",
-  "precache-manifest.9f30929ae08184bba1534aa47635bdf5.js": "./precache-manifest.9f30929ae08184bba1534aa47635bdf5.js",
+  "precache-manifest.96fc56bd828faa99d24676f7608c2ef8.js": "./precache-manifest.96fc56bd828faa99d24676f7608c2ef8.js",
   "service-worker.js": "./service-worker.js"
 }
