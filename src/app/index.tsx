@@ -1,5 +1,4 @@
 import React from 'react';
-
 import ReduxProvider from './providers/ReduxProvider';
 import ThemeProvider from './providers/ThemeProvider';
 import Header from './Header';
@@ -8,18 +7,29 @@ import { AppContainer, ContentContainer } from './styles';
 import Trades from '../widgets/Trades';
 import Plugins from '../widgets/Plugins';
 import Pages from '../widgets/Pages';
+import GlobalFonts from '../fonts/fonts';
+import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-router-dom';
+import Home from '../pages/Home';
+import Sub from '../pages/Sub';
 
 function App() {
   return (
-    <AppContainer>
-      <Header />
-      <ContentContainer>
-        <Trades />
-        <Plugins />
-        <Pages />
-      </ContentContainer>
-      <Footer />
-    </AppContainer>
+    <Router>
+      <AppContainer>
+        <GlobalFonts />
+        <Header />
+        <ContentContainer>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/sub/:id" component={Sub} />
+            <Route render={() => <Redirect to={{pathname: "/"}} />} />
+          </Switch>
+        </ContentContainer>
+        <Footer />
+      </AppContainer>
+    </Router>
   );
 }
 

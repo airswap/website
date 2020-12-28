@@ -5,9 +5,12 @@ const ButtonEl = styled.a`
   cursor: pointer;
   text-decoration: none;
   border: 3px solid #2b71ff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
   box-sizing: border-box;
   padding: 0 16px;
-  margin-right: 16px;
   color: #ffffff;
 `;
 

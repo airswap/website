@@ -117,3 +117,18 @@ export const pluginData = {
     },
   ],
 };
+
+export const subMenus = [
+  {
+    label: 'About the technology',
+    to: '/about-the-technology'
+  },
+  {
+    label: 'Development process',
+    to: '/development-process'
+  },
+  {
+    label: 'Token and governance',
+    to: '/token-and-governance'
+  }
+]
