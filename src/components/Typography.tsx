@@ -10,7 +10,7 @@ interface TypographyProps {
   decoration?: string;
 }
 
-export const BaseText = styled.p<TypographyProps>`
+export const BaseText = styled.div<TypographyProps>`
   font-weight: ${({ weight }) => weight || 'normal'};
   font-family: ${({ theme }) => theme.text.fontFamily};
   text-decoration: ${({ decoration }) => decoration || 'none'};
