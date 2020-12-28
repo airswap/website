@@ -21,11 +21,11 @@ const palette = {
   errorColor: colors.red[1],
   warningColor: colors.yellow[0],
   iconColor: colors.gray[4],
-  primaryBlue: colors.blue[3],
+  primaryBlue: colors.blue[2],
 };
 
 const text = {
-  fontFamily: 'proxima-nova, sans-serif',
+  fontFamily: 'Roboto Mono, proxima-nova, sans-serif',
   fontStyle: {
     italic: 'italic',
   },
@@ -39,7 +39,7 @@ const text = {
   },
   fontSize: {
     h1: '42px',
-    h2: '32px',
+    h2: '36px',
     h3: '24px',
     h4: '20px',
     h5: '18px',
@@ -49,15 +49,15 @@ const text = {
     h9: '11px',
   },
   lineHeight: {
-    h1: '50px',
-    h2: '36px',
-    h3: '28px',
-    h4: '24px',
-    h5: '22px',
-    h6: '20px',
-    h7: '18px',
-    h8: '16px',
-    h9: '13px',
+    h1: 1.25,
+    h2: 1.25,
+    h3: 1.25,
+    h4: 1.25,
+    h5: 1.25,
+    h6: 1.25,
+    h7: 1.25,
+    h8: 1.25,
+    h9: 1.25,
   },
 };
 
@@ -77,17 +77,12 @@ const animation = {
   defaultTransition: 0.3,
 };
 
-const breakpoints = {
-  sm: [0, 767],
-  md: [768, 991],
-  lg: [992, 1199],
-  xl: [1200],
-};
-
 const spacing = {
   widgetPadding: '40px',
   mobileWidgetPadding: '30px',
 };
+
+const gridPoint = 8;
 
 const theme = {
   animation,
@@ -97,7 +92,7 @@ const theme = {
   text,
   spacing,
   line,
-  breakpoints,
+  gridPoint,
 };
 
 export default theme;
