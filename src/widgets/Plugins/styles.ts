@@ -16,7 +16,8 @@ export const PluginItems = styled.div`
   flex-flow: wrap;
   margin: 0 -12px;
   @media ${responsive.smMax} {
-    margin: 0
+    margin: 0;
+    padding: 0 28px;
   }
 `;
 
