@@ -101,19 +101,19 @@ export const pluginData = {
       title: 'AirSwap Instant',
       description: 'Swap instantly with automated liquidity providers.',
       link: 'https://instant.airswap.io/',
-      thumbnail: '/images/airswap_instant.png',
+      thumbnail: `${process.env.PUBLIC_URL}/images/airswap_instant.png`,
     },
     {
       title: 'AirSwap OTC',
       description: 'Create and share custom swaps with other traders on the web.',
       link: 'https://trader.airswap.io/',
-      thumbnail: '/images/airswap_otc.png',
+      thumbnail: `${process.env.PUBLIC_URL}/images/airswap_otc.png`,
     },
     {
       title: 'MetaMask',
       description: 'Swap directly from the MetaMask browser extension.',
       link: 'https://www.metamask.io/',
-      thumbnail: '/images/metmask.png',
+      thumbnail: `${process.env.PUBLIC_URL}/images/metmask.png`,
     },
   ],
 };
