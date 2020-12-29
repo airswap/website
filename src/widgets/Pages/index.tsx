@@ -17,7 +17,7 @@ export default function Pages() {
               <PageItem key={item.title}>
                 <PageItemOuter>
                   <PageTitle>{item.title}</PageTitle>
-                  <PageContent>{item.description}</PageContent>
+                  <PageContent>{item.description && <div dangerouslySetInnerHTML={{ __html: item.description }} />}</PageContent>
                   <PageAction>
                     <Link primaryColor to={item.link}>
                       MORE →

@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components';
 import { H2 } from './Typography';
 import { responsive } from '../app/responsive';
 import { Container } from '../app/styles';
+import { Helmet } from 'react-helmet';
 
 type DataType = {
   title?: string;
@@ -72,13 +73,19 @@ export default function SubDetail(props: SubDetailProps) {
   const { data } = props;
   return (
     <SubContent>
+      <Helmet>
+        <meta property="og:title" content={`${data.title} | AirSwap`} />
+        <meta property="og:description" content={data.description} />
+        <meta name="twitter:title" content={`${data.title} | AirSwap`} />
+        <meta name="twitter:description" content={data.description} />
+        <title>{`${data.title} | AirSwap`}</title>
+        <meta name="description" content={data.description} />
+      </Helmet>
       <Container>
         <SubContentInner>
           <Title>{data.title}</Title>
           <ShortDesc>{data.description}</ShortDesc>
-          <Content>
-            {data.content && <div dangerouslySetInnerHTML={{ __html: data.content }} />}
-          </Content>
+          <Content>{data.content && <div dangerouslySetInnerHTML={{ __html: data.content }} />}</Content>
         </SubContentInner>
       </Container>
     </SubContent>
