@@ -36,7 +36,10 @@ export const VolumeContent = styled.div`
     flex: 1;
     min-width: 0;
     & > * {
-      margin: 0 20px 10px 0;
+      width: 50%;
+      flex: none;
+      margin: 0;
+      padding: 0 10px 10px 0;
     }
   }
 `;
