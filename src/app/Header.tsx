@@ -4,6 +4,7 @@ import { AIRSWAP_BUILD_URL, AIRSWAP_CHAT_URL, AIRSWAP_TRADE_URL, AIRSWAP_VOTE_UR
 import { ReactComponent as AirswapLogo } from '../static/airswap-logo.svg';
 import { AirswapLogoContainer, HeaderContainer, MenuContainer, HeaderSide, Container, MenuButtonOuter } from './styles';
 import Button from '../components/Button';
+import { VolumeContainer, VolumeTitle } from '../widgets/Volume/styles';
 
 interface ButtonProps {
   label: string;
@@ -26,7 +27,7 @@ export default function Header() {
           <AirswapLogo height={96} />
         </AirswapLogoContainer>
         <HeaderSide>
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense fallback={<VolumeContainer><VolumeTitle>VOLUME</VolumeTitle></VolumeContainer>}>
             <Volume />
           </Suspense>
           <MenuContainer>
