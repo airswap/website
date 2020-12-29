@@ -23,7 +23,6 @@ const App = () => {
                 <Home />
               </Route>
               <Route path="/:id" component={Sub} />
-              <Route render={() => <Redirect to={{ pathname: '/' }} />} />
             </React.Suspense>
           </Switch>
         </ContentContainer>
