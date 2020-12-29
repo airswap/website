@@ -1,5 +1,5 @@
 {
-  "main.js": "./static/js/main.d19b6d64.chunk.js",
+  "main.js": "./static/js/main.5ad0145f.chunk.js",
   "static/js/1.83f8a6e7.chunk.js": "./static/js/1.83f8a6e7.chunk.js",
   "runtime~main.js": "./static/js/runtime~main.4a686d48.js",
   "static/media/arrow-right.d6d941b5.svg": "./static/media/arrow-right.d6d941b5.svg",
@@ -10,6 +10,6 @@
   "static/media/airswap-logo.e6fd2095.svg": "./static/media/airswap-logo.e6fd2095.svg",
   "static/media/RobotoMono-Medium.ttf": "./static/media/RobotoMono-Medium.5a45b286.ttf",
   "index.html": "./index.html",
-  "precache-manifest.96fc56bd828faa99d24676f7608c2ef8.js": "./precache-manifest.96fc56bd828faa99d24676f7608c2ef8.js",
+  "precache-manifest.d82abdd056ef0364e8427b07c6f7125f.js": "./precache-manifest.d82abdd056ef0364e8427b07c6f7125f.js",
   "service-worker.js": "./service-worker.js"
 }
