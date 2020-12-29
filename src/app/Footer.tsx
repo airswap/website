@@ -14,7 +14,7 @@ interface LinkProps {
 function FooterLink(props: LinkProps) {
   return (
     <Flex align="center" direction="row">
-      <Link url={props.url}>
+      <Link to={props.url}>
         <LinkText>{props.label}</LinkText>
       </Link>
     </Flex>
@@ -34,7 +34,9 @@ export default function Header() {
           </LinkText>
         </LinkContainer>
         <AirswapLogoContainer>
-          <AirswapLogo height={32} />
+          <Link to="/">
+            <AirswapLogo height={32} />
+          </Link>
         </AirswapLogoContainer>
       </FooterContainer>
     </Container>
