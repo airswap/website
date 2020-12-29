@@ -84,6 +84,18 @@ const spacing = {
 
 const gridPoint = 8;
 
+const mixin = {
+  dashedLine: () => `
+    content: '';
+    width: 150px;
+    border-top: 1px dashed rgba(255, 255, 255, 0.5);
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+  `,
+};
+
 const theme = {
   animation,
   fixed,
@@ -93,6 +105,7 @@ const theme = {
   spacing,
   line,
   gridPoint,
+  mixin,
 };
 
 export default theme;

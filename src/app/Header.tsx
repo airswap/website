@@ -5,7 +5,7 @@ import { ReactComponent as AirswapLogo } from '../static/airswap-logo.svg';
 import { AirswapLogoContainer, HeaderContainer, MenuContainer, HeaderSide, Container, MenuButtonOuter } from './styles';
 import Button from '../components/Button';
 import { VolumeContainer, VolumeTitle } from '../widgets/Volume/styles';
-
+import Link from '../components/Link';
 interface ButtonProps {
   label: string;
   url: string;
@@ -24,7 +24,9 @@ export default function Header() {
     <Container>
       <HeaderContainer>
         <AirswapLogoContainer>
-          <AirswapLogo height={96} />
+          <Link to="/">
+            <AirswapLogo height={96} />
+          </Link>
         </AirswapLogoContainer>
         <HeaderSide>
           <Suspense fallback={<VolumeContainer><VolumeTitle>VOLUME</VolumeTitle></VolumeContainer>}>

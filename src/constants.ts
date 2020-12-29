@@ -121,14 +121,14 @@ export const pluginData = {
 export const subMenus = [
   {
     label: 'About the technology',
-    to: '/about-the-technology'
+    to: 'technology'
   },
   {
     label: 'Development process',
-    to: '/development-process'
+    to: 'process'
   },
   {
     label: 'Token and governance',
-    to: '/token-and-governance'
+    to: 'token'
   }
 ]

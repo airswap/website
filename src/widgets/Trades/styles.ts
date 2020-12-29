@@ -13,13 +13,11 @@ export const TradeItemsWrapper = styled.div`
   padding-top: 36px;
   position: relative;
   &:before {
-    content: '';
-    width: 150px;
-    border-top: 1px dashed rgba(255, 255, 255, 0.5);
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
+    ${({ theme }) => theme.mixin.dashedLine}
+  }
+  @media ${responsive.smMax} {
+    margin-top: 16px;
+    padding-top: 32px;
   }
 `;
 
