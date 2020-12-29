@@ -38,7 +38,7 @@ export const VolumeContent = styled.div`
     & > * {
       width: 50%;
       flex: none;
-      margin: 0;
+      margin: 0 !important;
       padding: 0 10px 10px 0;
     }
   }
