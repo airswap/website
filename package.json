@@ -64,6 +64,7 @@
     "rc-slider": "^8.7.1",
     "react": "^16.11.0",
     "react-app-rewired": "^2.0.3",
+    "react-cookie": "^4.0.3",
     "react-dom": "^16.11.0",
     "react-force-graph-3d": "^1.13.3",
     "react-intl": "^2.8.0",
