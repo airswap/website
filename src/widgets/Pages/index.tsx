@@ -19,7 +19,7 @@ export default function Pages() {
                   <PageTitle>{item.title}</PageTitle>
                   <PageContent>{item.description}</PageContent>
                   <PageAction>
-                    <Link primaryColor url={item.link}>
+                    <Link primaryColor to={item.link}>
                       MORE →
                     </Link>
                   </PageAction>

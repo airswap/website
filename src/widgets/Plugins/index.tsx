@@ -43,7 +43,7 @@ export default function Plugins() {
                   <PluginItemOuter>
                     <PluginImageBackground src={item.thumbnail} />
                     <PluginItemInner>
-                      <Link url={item.link}>
+                      <Link to={item.link}>
                         <PluginTitle>
                           <PluginTextBG>{item.title}</PluginTextBG>
                         </PluginTitle>

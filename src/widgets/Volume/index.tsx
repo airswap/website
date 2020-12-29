@@ -85,7 +85,7 @@ function Volume(props: VolumeProps) {
         <VolumeValue label="1WK" value={getTotalVolume(7)}></VolumeValue>
         <VolumeValue label="1MO" value={getTotalVolume(30)}></VolumeValue>
         <div>
-          <Link url={AIRSWAP_EXPLORE_URL}>MORE →</Link>
+          <Link to={AIRSWAP_EXPLORE_URL}>MORE →</Link>
         </div>
       </VolumeContent>
     </VolumeContainer>

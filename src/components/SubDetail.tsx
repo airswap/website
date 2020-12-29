@@ -1,24 +1,86 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
-interface LinkProps {
-  url?: string;
-  children?: React.ReactNode;
-  primaryColor?: boolean;
+import { H2 } from './Typography';
+import { responsive } from '../app/responsive';
+import { Container } from '../app/styles';
+
+type DataType = {
+  title?: string;
+  description?: string;
+  content?: string;
+};
+interface SubDetailProps {
+  data: DataType;
 }
 
-const LinkEl = styled.a<LinkProps>`
-  cursor: pointer;
-  text-decoration: none;
-  color: #ffffff;
-  ${props => props.primaryColor && css`
-    color: ${({ theme }) => theme.palette.primaryColor};
-  `}
+const Title = styled(H2).attrs({ expand: true, textAlign: 'left' })`
+  color: white;
+  font-weight: 400;
+  font-family: 'Lora';
+  margin-bottom: 32px;
+
+  @media ${responsive.smMax} {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 24px;
+  }
 `;
 
-export default function Link(props: LinkProps) {
+const ShortDesc = styled.div`
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+`;
+
+const SubContent = styled.div`
+  color: white;
+`;
+
+const SubContentInner = styled.div`
+  position: relative;
+  padding-bottom: 56px;
+
+  &:after {
+    ${({ theme }) => theme.mixin.dashedLine};
+    top: auto;
+    bottom: 0;
+  }
+`;
+
+const Content = styled.div`
+  margin-top: 64px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+  p {
+    margin-bottom: 24px;
+  }
+  a {
+    color: white;
+    &:hover {
+      color: ${({ theme }) => theme.palette.primaryColor};
+    }
+  }
+`;
+
+export default function SubDetail(props: SubDetailProps) {
+  const { data } = props;
   return (
-    <LinkEl primaryColor={props.primaryColor} href={props.url} target="_blank">
-      {props.children}
-    </LinkEl>
+    <SubContent>
+      <Container>
+        <SubContentInner>
+          <Title>{data.title}</Title>
+          <ShortDesc>{data.description}</ShortDesc>
+          <Content>
+            {data.content && <div dangerouslySetInnerHTML={{ __html: data.content }} />}
+          </Content>
+        </SubContentInner>
+      </Container>
+    </SubContent>
   );
 }

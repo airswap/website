@@ -12,6 +12,7 @@ const ButtonEl = styled.a`
   box-sizing: border-box;
   padding: 0 16px;
   color: #ffffff;
+  font-weight: 700;
 `;
 
 interface ButtonProps {

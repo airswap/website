@@ -17,9 +17,12 @@ const BaseStyles = createGlobalStyle`
     background-color: #1A1B1E;
     color: #FFFFFF;
     cursor: default;
-    height: 100%;
     width: 100%;
     overflow-y: auto;
+  }
+  a {
+    color: #FFFFFF;
+    text-decoration: none;
   }
   *,
   div,

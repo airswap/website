@@ -6,10 +6,11 @@ import Footer from './Footer';
 import { AppContainer, ContentContainer } from './styles';
 import GlobalFonts from '../fonts/fonts';
 import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-router-dom';
-import Home from '../pages/Home';
-import Sub from '../pages/Sub';
+const Home = React.lazy(() => import('../pages/Home'));
+const Sub = React.lazy(() => import('../pages/Sub'));
+import Loading from './Loading';
 
-function App() {
+const App = () => {
   return (
     <Router>
       <AppContainer>
@@ -17,17 +18,19 @@ function App() {
         <Header />
         <ContentContainer>
           <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/sub/:id" component={Sub} />
-            <Route render={() => <Redirect to={{pathname: "/"}} />} />
+            <React.Suspense fallback={<Loading />}>
+              <Route exact path="/">
+                <Home />
+              </Route>
+              <Route path="/:id" component={Sub} />
+              <Route render={() => <Redirect to={{ pathname: '/' }} />} />
+            </React.Suspense>
           </Switch>
         </ContentContainer>
         <Footer />
       </AppContainer>
     </Router>
   );
-}
+};
 
 export default ReduxProvider(ThemeProvider(App));
