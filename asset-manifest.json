@@ -1,9 +1,9 @@
 {
-  "main.js": "https://airswap.consensys.net/static/js/main.a7f05109.chunk.js",
-  "static/js/1.4fd74fbc.chunk.js": "https://airswap.consensys.net/static/js/1.4fd74fbc.chunk.js",
-  "static/js/2.63275e0d.chunk.js": "https://airswap.consensys.net/static/js/2.63275e0d.chunk.js",
-  "static/js/3.2b96d68c.chunk.js": "https://airswap.consensys.net/static/js/3.2b96d68c.chunk.js",
-  "runtime~main.js": "https://airswap.consensys.net/static/js/runtime~main.ac1118e2.js",
+  "main.js": "https://airswap.consensys.net/static/js/main.26b78da6.chunk.js",
+  "static/js/1.c70a17eb.chunk.js": "https://airswap.consensys.net/static/js/1.c70a17eb.chunk.js",
+  "static/js/2.d1fce0ea.chunk.js": "https://airswap.consensys.net/static/js/2.d1fce0ea.chunk.js",
+  "static/js/3.4c1274e6.chunk.js": "https://airswap.consensys.net/static/js/3.4c1274e6.chunk.js",
+  "runtime~main.js": "https://airswap.consensys.net/static/js/runtime~main.932f02b8.js",
   "static/media/RobotoMono-Regular.ttf": "https://airswap.consensys.net/static/media/RobotoMono-Regular.b4618f1f.ttf",
   "static/media/RobotoMono-Bold.ttf": "https://airswap.consensys.net/static/media/RobotoMono-Bold.c0c4a337.ttf",
   "static/media/Lora-Regular.ttf": "https://airswap.consensys.net/static/media/Lora-Regular.4b658006.ttf",
@@ -12,6 +12,6 @@
   "static/media/arrow-right.d6d941b5.svg": "https://airswap.consensys.net/static/media/arrow-right.d6d941b5.svg",
   "static/media/RobotoMono-Medium.ttf": "https://airswap.consensys.net/static/media/RobotoMono-Medium.5a45b286.ttf",
   "index.html": "https://airswap.consensys.net/index.html",
-  "precache-manifest.c3c8442e6547a53ecc28cbc2ca04f3e4.js": "https://airswap.consensys.net/precache-manifest.c3c8442e6547a53ecc28cbc2ca04f3e4.js",
+  "precache-manifest.404d9f01805d875616fea73713e768cc.js": "https://airswap.consensys.net/precache-manifest.404d9f01805d875616fea73713e768cc.js",
   "service-worker.js": "https://airswap.consensys.net/service-worker.js"
 }
