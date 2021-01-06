@@ -32,6 +32,24 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>AirSwap Website</title>
     <meta name="description" content="Explore the trading activity and structure of the AirSwap network." data-react-helmet="true"/>
+    <style>
+      body {
+        background: #1A1B1E;
+
+      }
+      .full-page-loader {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        color: #1A1B1E;
+      }
+    </style>
     <script type="text/javascript">
       (function(l) {
         if (l.search[1] === '/' ) {
@@ -47,6 +65,10 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div id="root">
+      <div class="full-page-loader">
+        Init awesome !!!
+      </div>
+    </div>
   </body>
 </html>
