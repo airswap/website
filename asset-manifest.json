@@ -1,12 +1,12 @@
 {
-  "main.js": "https://airswap.consensys.net/static/js/main.b50b8c60.chunk.js",
-  "static/js/1.816085d8.chunk.js": "https://airswap.consensys.net/static/js/1.816085d8.chunk.js",
-  "static/js/2.4278f1ba.chunk.js": "https://airswap.consensys.net/static/js/2.4278f1ba.chunk.js",
-  "static/js/3.ea380212.chunk.js": "https://airswap.consensys.net/static/js/3.ea380212.chunk.js",
-  "static/js/4.9cb6c8d7.chunk.js": "https://airswap.consensys.net/static/js/4.9cb6c8d7.chunk.js",
-  "static/js/5.fe74137b.chunk.js": "https://airswap.consensys.net/static/js/5.fe74137b.chunk.js",
+  "main.js": "https://airswap.consensys.net/static/js/main.3bfbe22f.chunk.js",
+  "static/js/1.17fcd68c.chunk.js": "https://airswap.consensys.net/static/js/1.17fcd68c.chunk.js",
+  "static/js/2.8f1d1566.chunk.js": "https://airswap.consensys.net/static/js/2.8f1d1566.chunk.js",
+  "static/js/3.ba970a3d.chunk.js": "https://airswap.consensys.net/static/js/3.ba970a3d.chunk.js",
+  "static/js/4.91d6b9b4.chunk.js": "https://airswap.consensys.net/static/js/4.91d6b9b4.chunk.js",
+  "static/js/5.38fcc6e5.chunk.js": "https://airswap.consensys.net/static/js/5.38fcc6e5.chunk.js",
   "static/js/6.3045a314.chunk.js": "https://airswap.consensys.net/static/js/6.3045a314.chunk.js",
-  "runtime~main.js": "https://airswap.consensys.net/static/js/runtime~main.396b1faa.js",
+  "runtime~main.js": "https://airswap.consensys.net/static/js/runtime~main.e1faef34.js",
   "static/media/RobotoMono-Regular.ttf": "https://airswap.consensys.net/static/media/RobotoMono-Regular.b4618f1f.ttf",
   "static/media/RobotoMono-Bold.ttf": "https://airswap.consensys.net/static/media/RobotoMono-Bold.c0c4a337.ttf",
   "static/media/Lora-Regular.ttf": "https://airswap.consensys.net/static/media/Lora-Regular.4b658006.ttf",
@@ -15,6 +15,6 @@
   "static/media/arrow-right.d6d941b5.svg": "https://airswap.consensys.net/static/media/arrow-right.d6d941b5.svg",
   "static/media/RobotoMono-Medium.ttf": "https://airswap.consensys.net/static/media/RobotoMono-Medium.5a45b286.ttf",
   "index.html": "https://airswap.consensys.net/index.html",
-  "precache-manifest.7adca7393c335351d803842b724e332b.js": "https://airswap.consensys.net/precache-manifest.7adca7393c335351d803842b724e332b.js",
+  "precache-manifest.b550beeaefe1e547a16cf2098cb1d326.js": "https://airswap.consensys.net/precache-manifest.b550beeaefe1e547a16cf2098cb1d326.js",
   "service-worker.js": "https://airswap.consensys.net/service-worker.js"
 }
