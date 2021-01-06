@@ -20,6 +20,10 @@ function MenuButton(props: ButtonProps) {
 }
 
 export default function Header() {
+  const [isLoaded, setLoaded] = React.useState(false);
+  React.useEffect(() => {
+    setLoaded(true);
+  }, []);
   return (
     <Container>
       <HeaderContainer>
@@ -29,9 +33,17 @@ export default function Header() {
           </Link>
         </AirswapLogoContainer>
         <HeaderSide>
-          <Suspense fallback={<VolumeContainer><VolumeTitle>VOLUME</VolumeTitle></VolumeContainer>}>
-            <Volume />
-          </Suspense>
+          {isLoaded && (
+            <Suspense
+              fallback={
+                <VolumeContainer>
+                  <VolumeTitle>VOLUME</VolumeTitle>
+                </VolumeContainer>
+              }
+            >
+              <Volume />
+            </Suspense>
+          )}
           <MenuContainer>
             <MenuButton label="TRADE" url={AIRSWAP_TRADE_URL} />
             <MenuButton label="VOTE" url={AIRSWAP_VOTE_URL} />
