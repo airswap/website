@@ -18,23 +18,27 @@ export default createGlobalStyle`
         src: url(${RobotoMonoMedium}) format('truetype');
         font-weight: 500;
         font-style: normal;
+        font-display: swap;
     }
     @font-face {
         font-family: 'Roboto Mono';
         src: url(${RobotoMonoBold}) format('truetype');
         font-weight: 700;
         font-style: normal;
+        font-display: swap;
     }
     @font-face {
         font-family: 'Lora';
         src: url(${LoraRegular}) format('truetype');
         font-weight: 400;
         font-style: normal;
+        font-display: swap;
     }
     @font-face {
         font-family: 'Lora';
         src: url(${LoraBold}) format('truetype');
         font-weight: 700;
         font-style: normal;
+        font-display: swap;
     }
 `;

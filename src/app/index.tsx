@@ -8,7 +8,6 @@ import GlobalFonts from '../fonts/fonts';
 import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-router-dom';
 const Home = React.lazy(() => import('../pages/Home'));
 const Sub = React.lazy(() => import('../pages/Sub'));
-import Loading from './Loading';
 
 const App = () => {
   return (
@@ -18,7 +17,7 @@ const App = () => {
         <Header />
         <ContentContainer>
           <Switch>
-            <React.Suspense fallback={<Loading />}>
+            <React.Suspense fallback={''}>
               <Route exact path="/">
                 <Home />
               </Route>
