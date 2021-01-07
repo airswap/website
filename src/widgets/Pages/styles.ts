@@ -34,7 +34,30 @@ export const PageItem = styled.div`
 
 export const PageItemOuter = styled.div`
   padding: 26px 32px;
-  border: 1px dashed rgba(255, 255, 255, 0.5);
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
+    border: 1px dashed rgba(255, 255, 255, 0.5);
+    transition: all 300ms ease;
+
+  }
+
+  &:hover {
+    &:before {
+      left: -8px;
+      right: -8px;
+      top: -8px;
+      bottom: -8px;
+    }
+  }
+  
 `;
 
 export const PageTitle = styled(H4).attrs({textAlign: 'left'})`
@@ -62,3 +85,10 @@ export const PageAction = styled.div`
     line-height: 16px;
   }
 `;
+
+export const MoreLink = styled.span `
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: ${({ theme }) => theme.palette.primaryColor};
+`

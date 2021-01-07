@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { PageContainer, PageContent, PageItem, PageTitle, PageItems, PageItemOuter, PageAction } from './styles';
+import { PageContainer, PageContent, PageItem, PageTitle, PageItems, PageItemOuter, PageAction, MoreLink } from './styles';
 import { WidgetTitle, WidgetWrapper } from '../styles';
 import { listPageData } from '../../constants';
 import Link from '../../components/Link';
@@ -15,15 +15,17 @@ export default function Pages() {
           <PageItems>
             {listPageData.items.map(item => (
               <PageItem key={item.title}>
-                <PageItemOuter>
-                  <PageTitle>{item.title}</PageTitle>
-                  <PageContent>{item.description && <div dangerouslySetInnerHTML={{ __html: item.description }} />}</PageContent>
-                  <PageAction>
-                    <Link primaryColor to={item.link}>
-                      MORE →
-                    </Link>
-                  </PageAction>
-                </PageItemOuter>
+                <Link to={item.link}>
+                  <PageItemOuter>
+                    <PageTitle>{item.title}</PageTitle>
+                    <PageContent>{item.description && <div dangerouslySetInnerHTML={{ __html: item.description }} />}</PageContent>
+                    <PageAction>
+                      <MoreLink>
+                        MORE →
+                      </MoreLink>
+                    </PageAction>
+                  </PageItemOuter>
+                </Link>
               </PageItem>
             ))}
           </PageItems>

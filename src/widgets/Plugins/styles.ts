@@ -69,11 +69,24 @@ export const PluginItemInner = styled.div `
   right: 0;
   top: 0;
   bottom: 0;
-  padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   z-index: 2;
+  a {
+    padding: 20px;
+    display: block;
+
+    * {
+      transition: color 300ms ease;
+    }
+
+    &:hover {
+      * {
+        color: ${({ theme }) => theme.palette.primaryColor};
+      }
+    }
+  }
 `;
 
 export const PluginItemOuter = styled.div `

@@ -13,6 +13,12 @@ const ButtonEl = styled.a`
   padding: 0 16px;
   color: #ffffff;
   font-weight: 700;
+  transition: all 300ms ease;
+
+  &:hover {
+    background: #2b71ff;
+    color: #fff;
+  }
 `;
 
 interface ButtonProps {
