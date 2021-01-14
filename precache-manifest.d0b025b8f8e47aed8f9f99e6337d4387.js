@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "https://airswap.consensys.net/static/media/RobotoMono-Bold.c0c4a337.ttf"
   },
   {
-    "revision": "95e04d61e4ca965970fd",
-    "url": "https://airswap.consensys.net/static/js/runtime~main.95e04d61.js"
+    "revision": "efb5a7410a9b885b6acf",
+    "url": "https://airswap.consensys.net/static/js/runtime~main.efb5a741.js"
   },
   {
     "revision": "5a45b286f59824f5d3b2d761871ced29",
@@ -52,15 +52,15 @@ self.__precacheManifest = [
     "url": "https://airswap.consensys.net/static/js/3.ba970a3d.chunk.js"
   },
   {
-    "revision": "8f1d15660c0e6a7649d3",
-    "url": "https://airswap.consensys.net/static/js/2.8f1d1566.chunk.js"
+    "revision": "3bbda0d4e1da760ed382",
+    "url": "https://airswap.consensys.net/static/js/2.3bbda0d4.chunk.js"
   },
   {
-    "revision": "80e245f9982340bbbee3",
-    "url": "https://airswap.consensys.net/static/js/1.80e245f9.chunk.js"
+    "revision": "55d7c630a9632a03ed56",
+    "url": "https://airswap.consensys.net/static/js/1.55d7c630.chunk.js"
   },
   {
-    "revision": "bb6402ba3e63c937cce420906922574f",
+    "revision": "4604b64f12ff30c7d991effab5a0e58d",
     "url": "https://airswap.consensys.net/index.html"
   }
 ];

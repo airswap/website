@@ -1,12 +1,12 @@
 {
   "main.js": "https://airswap.consensys.net/static/js/main.239ae7e9.chunk.js",
-  "static/js/1.80e245f9.chunk.js": "https://airswap.consensys.net/static/js/1.80e245f9.chunk.js",
-  "static/js/2.8f1d1566.chunk.js": "https://airswap.consensys.net/static/js/2.8f1d1566.chunk.js",
+  "static/js/1.55d7c630.chunk.js": "https://airswap.consensys.net/static/js/1.55d7c630.chunk.js",
+  "static/js/2.3bbda0d4.chunk.js": "https://airswap.consensys.net/static/js/2.3bbda0d4.chunk.js",
   "static/js/3.ba970a3d.chunk.js": "https://airswap.consensys.net/static/js/3.ba970a3d.chunk.js",
   "static/js/4.91d6b9b4.chunk.js": "https://airswap.consensys.net/static/js/4.91d6b9b4.chunk.js",
   "static/js/5.38fcc6e5.chunk.js": "https://airswap.consensys.net/static/js/5.38fcc6e5.chunk.js",
   "static/js/6.3045a314.chunk.js": "https://airswap.consensys.net/static/js/6.3045a314.chunk.js",
-  "runtime~main.js": "https://airswap.consensys.net/static/js/runtime~main.95e04d61.js",
+  "runtime~main.js": "https://airswap.consensys.net/static/js/runtime~main.efb5a741.js",
   "static/media/RobotoMono-Regular.ttf": "https://airswap.consensys.net/static/media/RobotoMono-Regular.b4618f1f.ttf",
   "static/media/RobotoMono-Bold.ttf": "https://airswap.consensys.net/static/media/RobotoMono-Bold.c0c4a337.ttf",
   "static/media/Lora-Regular.ttf": "https://airswap.consensys.net/static/media/Lora-Regular.4b658006.ttf",
@@ -15,6 +15,6 @@
   "static/media/arrow-right.d6d941b5.svg": "https://airswap.consensys.net/static/media/arrow-right.d6d941b5.svg",
   "static/media/RobotoMono-Medium.ttf": "https://airswap.consensys.net/static/media/RobotoMono-Medium.5a45b286.ttf",
   "index.html": "https://airswap.consensys.net/index.html",
-  "precache-manifest.fe2b9db8faaebb4dc8c2de8826fd56ab.js": "https://airswap.consensys.net/precache-manifest.fe2b9db8faaebb4dc8c2de8826fd56ab.js",
+  "precache-manifest.d0b025b8f8e47aed8f9f99e6337d4387.js": "https://airswap.consensys.net/precache-manifest.d0b025b8f8e47aed8f9f99e6337d4387.js",
   "service-worker.js": "https://airswap.consensys.net/service-worker.js"
 }
