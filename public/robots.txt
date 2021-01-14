@@ -6,3 +6,5 @@ Allow: /
 
 User-agent: Semrushbot-SI
 Allow: /
+
+Sitemap: https://airswap.consensys.net/sitemap.xml
