@@ -5,7 +5,7 @@ import Header from './Header';
 import Footer from './Footer';
 import { AppContainer, ContentContainer } from './styles';
 import GlobalFonts from '../fonts/fonts';
-import { BrowserRouter as Router, Switch, Route, Link, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 const Home = React.lazy(() => import('../pages/Home'));
 const Sub = React.lazy(() => import('../pages/Sub'));
 

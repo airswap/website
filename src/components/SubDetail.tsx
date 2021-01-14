@@ -83,7 +83,7 @@ export default function SubDetail(props: SubDetailProps) {
       </Helmet>
       <Container>
         <SubContentInner>
-          <Title>{data.title}</Title>
+          <Title as={'h1'}>{data.title}</Title>
           <ShortDesc>{data.description}</ShortDesc>
           <Content>{data.content && <div dangerouslySetInnerHTML={{ __html: data.content }} />}</Content>
         </SubContentInner>
