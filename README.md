@@ -1,4 +1,4 @@
-## AirSwap Explorer API
+## AirSwap
 
 ## Run Locally
 
