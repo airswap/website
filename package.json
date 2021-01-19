@@ -9,8 +9,8 @@
     "Gal Eldar <gal.eldar@fluidity.io>"
   ],
   "scripts": {
-    "start:dev": "HTTPS=false PORT=3000 REACT_APP_ENVIRONMENT='development' react-app-rewired start",
-    "start:prod": "HTTPS=true PORT=3001 REACT_APP_ENVIRONMENT='production' react-app-rewired start",
+    "start:dev": "HTTPS=false PORT=3000 PUBLIC_URL=http://localhost:3000 REACT_APP_ENVIRONMENT='development' react-app-rewired start",
+    "start:prod": "HTTPS=true PORT=3001 PUBLIC_URL=https://localhost:3001 REACT_APP_ENVIRONMENT='production' react-app-rewired start",
     "start": "yarn start:dev",
     "build": "react-app-rewired build",
     "pages": "cp build/index.html build/technology/index.html && cp build/index.html build/process/index.html && cp build/index.html build/token/index.html",
