@@ -82,7 +82,7 @@ export default function SubDetail(props: SubDetailProps) {
         <meta property="og:url" content={`${process.env.PUBLIC_URL}${data.link}`} />
         <meta name="twitter:title" content={`${data.title} | AirSwap`} />
         <meta name="twitter:description" content={data.description} />
-        <meta name="twitter:url" content={`${process.env.PUBLIC_URL}${`${process.env.PUBLIC_URL}${data.link}`}`} />
+        <meta name="twitter:url" content={`${process.env.PUBLIC_URL}${data.link}`} />
         <link rel="canonical" href={`${process.env.PUBLIC_URL}${data.link}`} />
       </Helmet>
       <Container>
