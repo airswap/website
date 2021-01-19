@@ -23,7 +23,7 @@ export const SwapSourceMap = {
 };
 
 export const pageAboutTechnology = {
-  link: `${process.env.PUBLIC_URL}/technology`,
+  link: `/technology`,
   title: 'Learn about the technology',
   description:
     'Stay in control of your keys and your coins. No sign-ups and no deposits, only peer-to-peer trading directly from your favorite digital wallet. Plug in and go.',
@@ -32,7 +32,7 @@ export const pageAboutTechnology = {
 };
 
 export const pageDevelopment = {
-  link: `${process.env.PUBLIC_URL}/process`,
+  link: `/process`,
   title: 'Build the future of trading',
   description:
     'Thinkers, designers, developers, and traders all participate in the AirSwap Improvement Proposal (AIP) process by authoring, discussing, and building proposals.',
@@ -41,7 +41,7 @@ export const pageDevelopment = {
 };
 
 export const pageTokenAndGov = {
-  link: `${process.env.PUBLIC_URL}/token`,
+  link: `/token`,
   title: 'Use your tokens to stake and vote',
   description:
     'The AirSwap token (AST) has two main utilities: to give liquidity providers the ability to announce that they’re online, and to give community members a voice in governance.',
