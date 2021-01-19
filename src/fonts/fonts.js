@@ -12,6 +12,7 @@ export default createGlobalStyle`
         src: url(${RobotoMonoRegular}) format('truetype');
         font-weight: 400;
         font-style: normal;
+        font-display: swap;
     }
     @font-face {
         font-family: 'Roboto Mono';

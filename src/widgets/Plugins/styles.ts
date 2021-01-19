@@ -77,12 +77,12 @@ export const PluginItemInner = styled.div `
     padding: 20px;
     display: block;
 
-    * {
-      transition: color 300ms ease;
+    & > span {
+      transition: color 100ms ease;
     }
 
     &:hover {
-      * {
+      & > span {
         color: ${({ theme }) => theme.palette.primaryColor};
       }
     }
