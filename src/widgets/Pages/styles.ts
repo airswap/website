@@ -45,16 +45,13 @@ export const PageItemOuter = styled.div`
     bottom: 0;
     pointer-events: none;
     border: 1px dashed rgba(255, 255, 255, 0.5);
-    transition: all 300ms ease;
+    transition: all 100ms ease;
 
   }
 
   &:hover {
     &:before {
-      left: -8px;
-      right: -8px;
-      top: -8px;
-      bottom: -8px;
+      border: 3px solid #fff;
     }
   }
   
