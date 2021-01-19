@@ -6,6 +6,7 @@ import { Container } from '../app/styles';
 import { Helmet } from 'react-helmet';
 
 type DataType = {
+  link?: string;
   title?: string;
   description?: string;
   content?: string;
@@ -74,12 +75,15 @@ export default function SubDetail(props: SubDetailProps) {
   return (
     <SubContent>
       <Helmet>
-        <meta property="og:title" content={`${data.title} | AirSwap`} />
-        <meta property="og:description" content={data.description} />
-        <meta name="twitter:title" content={`${data.title} | AirSwap`} />
-        <meta name="twitter:description" content={data.description} />
         <title>{`${data.title} | AirSwap`}</title>
         <meta name="description" content={data.description} />
+        <meta property="og:title" content={`${data.title} | AirSwap`} />
+        <meta property="og:description" content={data.description} />
+        <meta property="og:url" content={data.link} />
+        <meta name="twitter:title" content={`${data.title} | AirSwap`} />
+        <meta name="twitter:description" content={data.description} />
+        <meta name="twitter:url" content={data.link} />
+        <link rel="canonical" href={data.link} />
       </Helmet>
       <Container>
         <SubContentInner>

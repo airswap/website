@@ -22,31 +22,8 @@ export const SwapSourceMap = {
   [TRADER_AFFILIATE_ADDRESS]: 'AirSwap OTC',
 };
 
-export const listPageData = {
-  title: 'Join and shape the future.',
-  items: [
-    {
-      title: 'Learn about the technology',
-      description:
-        'Stay in control of your keys and your coins. No sign-ups and no deposits, only peer-to-peer trading directly from your favorite digital wallet. Plug in and go.',
-      link: '/technology',
-    },
-    {
-      title: 'Build the future of trading',
-      description:
-        'Thinkers, designers, developers, and traders all participate in the AirSwap Improvement Proposal (AIP) process by authoring, discussing, and building proposals.',
-      link: '/process',
-    },
-    {
-      title: 'Use your tokens to stake and vote',
-      description:
-        'The AirSwap token (AST) has two main utilities: to give liquidity providers the ability to announce that they’re online, and to give community members a voice in governance.',
-      link: '/token',
-    },
-  ],
-};
-
 export const pageAboutTechnology = {
+  link: `${process.env.PUBLIC_URL}/technology`,
   title: 'Learn about the technology',
   description:
     'Stay in control of your keys and your coins. No sign-ups and no deposits, only peer-to-peer trading directly from your favorite digital wallet. Plug in and go.',
@@ -55,6 +32,7 @@ export const pageAboutTechnology = {
 };
 
 export const pageDevelopment = {
+  link: `${process.env.PUBLIC_URL}/process`,
   title: 'Build the future of trading',
   description:
     'Thinkers, designers, developers, and traders all participate in the AirSwap Improvement Proposal (AIP) process by authoring, discussing, and building proposals.',
@@ -63,11 +41,21 @@ export const pageDevelopment = {
 };
 
 export const pageTokenAndGov = {
+  link: `${process.env.PUBLIC_URL}/token`,
   title: 'Use your tokens to stake and vote',
   description:
     'The AirSwap token (AST) has two main utilities: to give liquidity providers the ability to announce that they’re online, and to give community members a voice in governance.',
   content:
     '<p>Because AirSwap is a peer-to-peer network, finding a counterparty is the first step in any trade. The underlying AirSwap protocols include the Indexer, which is like a search engine for peers. To be added to this search engine, liquidity providers stake their AST. </p> <p>AirSwap tokens are also used by community members to vote on AirSwap Improvement Proposals (AIP) to determine which proposals should be implemented. Browse active AIPs and participate in votes at https://vote.airswap.io/. </p>',
+};
+
+export const listPageData = {
+  title: 'Join and shape the future.',
+  items: [
+    pageAboutTechnology,
+    pageDevelopment,
+    pageTokenAndGov,
+  ],
 };
 
 export const wayToTradeData = {
@@ -118,14 +106,14 @@ export const pluginData = {
 export const subMenus = [
   {
     label: 'About the technology',
-    to: 'technology'
+    to: 'technology',
   },
   {
     label: 'Development process',
-    to: 'process'
+    to: 'process',
   },
   {
     label: 'Token and governance',
-    to: 'token'
-  }
-]
+    to: 'token',
+  },
+];
