@@ -59,7 +59,7 @@ export const listPageData = {
 };
 
 export const wayToTradeData = {
-  title: 'The safest way to trade.',
+  title: 'Powering peer-to-peer trading.',
   items: [
     {
       title: 'Decentralized',
