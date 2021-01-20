@@ -14,7 +14,7 @@
     "start": "yarn start:dev",
     "build": "react-app-rewired build",
     "pages": "cp build/index.html build/technology/index.html && cp build/index.html build/process/index.html && cp build/index.html build/token/index.html",
-    "build:production": "REACT_APP_SERVER_ENV=production REACT_APP_ENVIRONMENT=production ENV=production GENERATE_SOURCEMAP=false CI=false PUBLIC_URL=https://airswap.consensys.net yarn build && touch build/.nojekyll && touch build/CNAME && echo \"airswap.consensys.net\" >> build/CNAME",
+    "build:production": "REACT_APP_SERVER_ENV=production REACT_APP_ENVIRONMENT=production ENV=production GENERATE_SOURCEMAP=false CI=false PUBLIC_URL=https://airswap.io yarn build && touch build/.nojekyll && touch build/CNAME && echo \"airswap.io\" >> build/CNAME",
     "build:development": "REACT_APP_SERVER_ENV=development REACT_APP_ENVIRONMENT=development ENV=development GENERATE_SOURCEMAP=false CI=false yarn build",
     "prettier:run-all": "prettier --write \"src/**/*.{ts,tsx}\"",
     "types": "tsc",
