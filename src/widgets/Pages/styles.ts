@@ -49,12 +49,13 @@ export const PageItemOuter = styled.div`
 
   }
 
+  transition: all 200ms ease;
   &:hover {
     &:before {
-      border: 3px solid #fff;
+      border: 1px dashed rgba(255, 255, 255, 1);
     }
   }
-  
+
 `;
 
 export const PageTitle = styled(H4).attrs({textAlign: 'left'})`

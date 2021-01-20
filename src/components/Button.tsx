@@ -13,11 +13,10 @@ const ButtonEl = styled.a`
   padding: 0 16px;
   color: #ffffff;
   font-weight: 700;
-  transition: all 300ms ease;
+  transition: all 200ms ease;
 
   &:hover {
-    background: #2b71ff;
-    color: #fff;
+    border: 3px solid #fff;
   }
 `;
 
