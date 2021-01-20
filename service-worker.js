@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://www.airswap.io/precache-manifest.6613c271243d63970691919ef7cbd49e.js"
+  "https://www.airswap.io/precache-manifest.62010646912eed5ff5a2541705d301ff.js"
 );
 
 workbox.clientsClaim();
