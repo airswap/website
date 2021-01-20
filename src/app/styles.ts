@@ -10,7 +10,7 @@ export const AppContainer = styled(Flex)`
 export const HeaderContainer = styled(Flex).attrs({ direction: 'row', justify: 'space-between' })`
   width: 100%;
   margin: auto;
-  padding-top: 110px;
+  padding-top: 80px;
   padding-bottom: 80px;
 
   @media ${responsive.smMax} {
