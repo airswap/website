@@ -75,12 +75,12 @@ export default function SubDetail(props: SubDetailProps) {
   return (
     <SubContent>
       <Helmet>
-        <title>{`${data.title} | AirSwap`}</title>
+        <title>{`AirSwap: ${data.title}`}</title>
         <meta name="description" content={data.description} />
-        <meta property="og:title" content={`${data.title} | AirSwap`} />
+        <meta property="og:title" content={`AirSwap: ${data.title}`} />
         <meta property="og:description" content={data.description} />
         <meta property="og:url" content={`${process.env.PUBLIC_URL}${data.link}`} />
-        <meta name="twitter:title" content={`${data.title} | AirSwap`} />
+        <meta name="twitter:title" content={`AirSwap: ${data.title}`} />
         <meta name="twitter:description" content={data.description} />
         <meta name="twitter:url" content={`${process.env.PUBLIC_URL}${data.link}`} />
         <link rel="canonical" href={`${process.env.PUBLIC_URL}${data.link}`} />
