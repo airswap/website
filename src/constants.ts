@@ -46,7 +46,7 @@ export const pageTokenAndGov = {
   description:
     'The AirSwap Token (AST) gives liquidity providers the ability to announce that they’re online and gives community members a voice in governance.',
   content:
-    '<p>Because AirSwap is a peer-to-peer network, finding a counterparty is the first step in any trade. The underlying AirSwap protocols include the Indexer, which is like a search engine for peers. To be added to this search engine, liquidity providers stake their AST. </p> <p>AirSwap tokens are also used by community members to vote on AirSwap Improvement Proposals (AIP) to determine which proposals should be implemented. Browse active AIPs and participate in votes at <a href="https://vote.airswap.io/" target="_blank">https://vote.airswap.io/</a>. </p>',
+    '<p>Because AirSwap is a peer-to-peer network, finding a counterparty is the first step in any trade. The underlying AirSwap protocols include the Indexer, which is like a search engine for peers. To be added to this search engine, liquidity providers stake AST. </p> <p>AirSwap tokens are also used by community members to vote on AirSwap Improvement Proposals (AIP) to ratify proposals for selection by network contributors. Browse active AIPs and participate in votes at <a href="https://vote.airswap.io/" target="_blank">https://vote.airswap.io/</a>. </p>',
 };
 
 export const listPageData = {
