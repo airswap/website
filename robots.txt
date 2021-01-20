@@ -1,10 +1,4 @@
 User-agent: *
-Disallow: /
-
-User-agent: Semrushbot-SA
-Allow: /
-
-User-agent: Semrushbot-SI
 Allow: /
 
 Sitemap: https://www.airswap.io/sitemap.xml
