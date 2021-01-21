@@ -1,12 +1,12 @@
 {
-  "main.js": "https://www.airswap.io/static/js/main.7a5342e8.chunk.js",
-  "static/js/1.120db44d.chunk.js": "https://www.airswap.io/static/js/1.120db44d.chunk.js",
+  "main.js": "https://www.airswap.io/static/js/main.786e6683.chunk.js",
+  "static/js/1.07fe952f.chunk.js": "https://www.airswap.io/static/js/1.07fe952f.chunk.js",
   "static/js/2.2cc78347.chunk.js": "https://www.airswap.io/static/js/2.2cc78347.chunk.js",
   "static/js/3.16a79aa6.chunk.js": "https://www.airswap.io/static/js/3.16a79aa6.chunk.js",
   "static/js/4.dab593b7.chunk.js": "https://www.airswap.io/static/js/4.dab593b7.chunk.js",
   "static/js/5.b1a67b2b.chunk.js": "https://www.airswap.io/static/js/5.b1a67b2b.chunk.js",
   "static/js/6.7e057ef8.chunk.js": "https://www.airswap.io/static/js/6.7e057ef8.chunk.js",
-  "runtime~main.js": "https://www.airswap.io/static/js/runtime~main.dbee7ba7.js",
+  "runtime~main.js": "https://www.airswap.io/static/js/runtime~main.8379cd0f.js",
   "static/media/RobotoMono-Regular.ttf": "https://www.airswap.io/static/media/RobotoMono-Regular.b4618f1f.ttf",
   "static/media/RobotoMono-Bold.ttf": "https://www.airswap.io/static/media/RobotoMono-Bold.c0c4a337.ttf",
   "static/media/Lora-Regular.ttf": "https://www.airswap.io/static/media/Lora-Regular.4b658006.ttf",
@@ -15,6 +15,6 @@
   "static/media/arrow-right.d6d941b5.svg": "https://www.airswap.io/static/media/arrow-right.d6d941b5.svg",
   "static/media/RobotoMono-Medium.ttf": "https://www.airswap.io/static/media/RobotoMono-Medium.5a45b286.ttf",
   "index.html": "https://www.airswap.io/index.html",
-  "precache-manifest.35306dad933770ac27a0ef57a4bdadad.js": "https://www.airswap.io/precache-manifest.35306dad933770ac27a0ef57a4bdadad.js",
+  "precache-manifest.5ec08279c8e4f932a26f952f5461713d.js": "https://www.airswap.io/precache-manifest.5ec08279c8e4f932a26f952f5461713d.js",
   "service-worker.js": "https://www.airswap.io/service-worker.js"
 }
