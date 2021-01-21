@@ -12,6 +12,8 @@ export const WidgetTitle = styled(H2).attrs({ expand: true, textAlign: 'left' })
   text-align: center;
   font-family: "Lora";
 
+  padding-top: 56px;
+
   ${props => props.mb && css`
     margin-bottom: 56px;
 

@@ -99,7 +99,7 @@ export const LinkText = styled(H6)`
 export const FooterContainer = styled(Flex).attrs({ direction: 'column', justify: 'center', align: 'center' })`
   width: 100%;
   margin: auto;
-  padding: 56px 0 80px 0;
+  padding: 56px 0 112px 0;
 
   @media ${responsive.smMax} {
     padding: 56px 0 72px 0;
