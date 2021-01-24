@@ -28,7 +28,7 @@ export const pageAboutTechnology = {
   description:
     'AirSwap is a peer-to-peer network. A simple combination of web protocols and smart contracts powers its RFQ (request-for-quote) style protocol.',
   content:
-    '<p>There are two kinds of liquidity providers on AirSwap: those running their own HTTP servers to provide liquidity and those managing onchain delegates that make trades on their behalf.</p><p>Each swap is between two parties, a signer and a sender. The signer is the party that creates and cryptographically signs an order and sender is the party that sends the order to the Ethereum blockchain for settlement. Learn more at <a href="https://docs.airswap.io/" target="_blank">https://docs.airswap.io/</a>.</p>',
+    '<p>There are two kinds of liquidity providers on AirSwap: those running their own HTTP servers to provide liquidity and those managing onchain delegates that swap on their behalf.</p><p>Each swap is between two parties, a signer and a sender. The signer is the party that creates and cryptographically signs an order and sender is the party that sends the order to the Ethereum blockchain for settlement. Learn more at <a href="https://docs.airswap.io/" target="_blank">https://docs.airswap.io/</a>.</p>',
 };
 
 export const pageDevelopment = {
@@ -69,12 +69,12 @@ export const wayToTradeData = {
     {
       title: 'Guaranteed price',
       description:
-        'The price you see is the price you get. Each trade is cryptographically signed and guaranteed to fill at the specified price without any slippage during execution.',
+        'The price you see is the price you get. Each swap is cryptographically signed and guaranteed to fill at the specified price without any slippage during execution.',
     },
     {
       title: 'Atomic swaps',
       description:
-        'Both sides of a trade must successfully transfer tokens in a single transaction. If one side fails, the entire transaction reverts and no tokens move.',
+        'Both sides of a swap must successfully transfer tokens in a single transaction. If one side fails, the entire transaction reverts and no tokens move.',
     },
   ],
 };
