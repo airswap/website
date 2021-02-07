@@ -3,8 +3,9 @@ import React from 'react';
 import Flex from '../components/Flex';
 import Link from '../components/Link';
 import { AIRSWAP_PRIVACY_URL, AIRSWAP_SUPPORT_URL, AIRSWAP_TERMS_URL, AIRSWAP_TWITTER, AIRSWAP_DISCORD, AIRSWAP_TELEGRAM, AIRSWAP_DOCS_URL } from '../constants';
-import { ReactComponent as AirswapLogo } from '../static/airswap-logo.svg';
-import { AirswapLogoContainer, FooterContainer, LinkContainer, LinkText, Container } from './styles';
+import { ReactComponent as AirSwapLogo } from '../static/airswap-logo.svg';
+import { ReactComponent as DefiPulseLogo } from '../static/defipulse-logo.svg';
+import { AirSwapLogoContainer, FooterContainer, LinkContainer, LinkText, Container } from './styles';
 
 interface LinkProps {
   label: string;
@@ -39,11 +40,16 @@ export default function Header() {
             <span className={'fw-normal'}>COPYRIGHT</span> 2021
           </LinkText>
         </LinkContainer>
-        <AirswapLogoContainer>
+        <AirSwapLogoContainer>
           <Link to="/">
-            <AirswapLogo height={32} />
+            <AirSwapLogo height={32} />
           </Link>
-        </AirswapLogoContainer>
+        </AirSwapLogoContainer>
+        <AirSwapLogoContainer>
+          <Link to="https://defipulse.com/">
+            <DefiPulseLogo height={12} />
+          </Link>
+        </AirSwapLogoContainer>
       </FooterContainer>
     </Container>
   );

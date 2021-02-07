@@ -5,7 +5,7 @@ export const ONEINCH_EXCHANGE_ADDRESS = '0x11111254369792b2ca5d084ab5eea397ca8fa
 export const DEX_AG_ADDRESS = '0xa540fb50288cc31639305b1675c70763c334953b';
 export const TOTLE_ADDRESS = '0x91f3935ed7a4ee8d15023c5df26895b26ae98015';
 
-// Airswap URL
+// AirSwap URL
 export const AIRSWAP_EXPLORE_URL = 'https://explorer.airswap.io/';
 export const AIRSWAP_TRADE_URL = 'https://instant.airswap.io/';
 export const AIRSWAP_VOTE_URL = 'https://vote.airswap.io/';

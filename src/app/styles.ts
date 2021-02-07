@@ -33,7 +33,7 @@ export const HeaderSide = styled(Flex).attrs({ direction: 'column', align: 'stre
   }
 `;
 
-export const AirswapLogoContainer = styled(Flex).attrs({ align: 'flex-start' })`
+export const AirSwapLogoContainer = styled(Flex).attrs({ align: 'flex-start' })`
   padding-top: 28px;
   @media ${responsive.smMax} {
     justify-content: center;

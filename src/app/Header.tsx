@@ -1,8 +1,8 @@
 import React, { Suspense } from 'react';
 const Volume = React.lazy(() => import('../widgets/Volume'));
 import { AIRSWAP_BUILD_URL, AIRSWAP_CHAT_URL, AIRSWAP_TRADE_URL, AIRSWAP_VOTE_URL } from '../constants';
-import { ReactComponent as AirswapLogo } from '../static/airswap-logo.svg';
-import { AirswapLogoContainer, HeaderContainer, MenuContainer, HeaderSide, Container, MenuButtonOuter } from './styles';
+import { ReactComponent as AirSwapLogo } from '../static/airswap-logo.svg';
+import { AirSwapLogoContainer, HeaderContainer, MenuContainer, HeaderSide, Container, MenuButtonOuter } from './styles';
 import Button from '../components/Button';
 import { VolumeContainer, VolumeTitle } from '../widgets/Volume/styles';
 import Link from '../components/Link';
@@ -27,11 +27,11 @@ export default function Header() {
   return (
     <Container>
       <HeaderContainer>
-        <AirswapLogoContainer>
+        <AirSwapLogoContainer>
           <Link to="/">
-            <AirswapLogo height={96} />
+            <AirSwapLogo height={96} />
           </Link>
-        </AirswapLogoContainer>
+        </AirSwapLogoContainer>
         <HeaderSide>
           {isLoaded && (
             <Suspense
