@@ -8,7 +8,7 @@ export const TOTLE_ADDRESS = '0x91f3935ed7a4ee8d15023c5df26895b26ae98015';
 // AirSwap URL
 export const AIRSWAP_EXPLORE_URL = 'https://explorer.airswap.io/';
 export const AIRSWAP_TRADE_URL = 'https://instant.airswap.io/';
-export const AIRSWAP_VOTE_URL = 'https://vote.airswap.io/';
+export const AIRSWAP_VOTE_URL = 'https://activate.codefi.network/staking/airswap/governance';
 export const AIRSWAP_BUILD_URL = 'https://docs.airswap.io/';
 export const AIRSWAP_CHAT_URL = 'https://chat.airswap.io/';
 export const AIRSWAP_SUPPORT_URL = 'https://support.airswap.io/';
