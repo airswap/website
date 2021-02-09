@@ -1,5 +1,5 @@
 {
-  "main.js": "https://www.airswap.io/static/js/main.6ab7a0de.chunk.js",
+  "main.js": "https://www.airswap.io/static/js/main.deb1f934.chunk.js",
   "static/js/1.62a60ed6.chunk.js": "https://www.airswap.io/static/js/1.62a60ed6.chunk.js",
   "static/js/2.4a78a704.chunk.js": "https://www.airswap.io/static/js/2.4a78a704.chunk.js",
   "static/js/3.2bc4b7c5.chunk.js": "https://www.airswap.io/static/js/3.2bc4b7c5.chunk.js",
@@ -16,6 +16,6 @@
   "static/media/arrow-right.d6d941b5.svg": "https://www.airswap.io/static/media/arrow-right.d6d941b5.svg",
   "static/media/RobotoMono-Medium.ttf": "https://www.airswap.io/static/media/RobotoMono-Medium.5a45b286.ttf",
   "index.html": "https://www.airswap.io/index.html",
-  "precache-manifest.2b1795264898b12817c6439ed293caab.js": "https://www.airswap.io/precache-manifest.2b1795264898b12817c6439ed293caab.js",
+  "precache-manifest.f964f883b18477078c2a564ae9ba8464.js": "https://www.airswap.io/precache-manifest.f964f883b18477078c2a564ae9ba8464.js",
   "service-worker.js": "https://www.airswap.io/service-worker.js"
 }
