@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "https://www.airswap.io/static/media/RobotoMono-Regular.b4618f1f.ttf"
   },
   {
-    "revision": "340fa13ddee31d7829d4",
-    "url": "https://www.airswap.io/static/js/main.340fa13d.chunk.js"
+    "revision": "bdbaf36f24f3d585b273",
+    "url": "https://www.airswap.io/static/js/main.bdbaf36f.chunk.js"
   },
   {
     "revision": "d6d941b5349800a45605ad9df5d5defb",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "https://www.airswap.io/static/media/Lora-Regular.4b658006.ttf"
   },
   {
-    "revision": "0380b9cf12e6aa4e26c7",
-    "url": "https://www.airswap.io/static/js/runtime~main.0380b9cf.js"
+    "revision": "5ae5747220aedbaa7d3a",
+    "url": "https://www.airswap.io/static/js/runtime~main.5ae57472.js"
   },
   {
     "revision": "c0c4a33786b0278c385d0f647b57490f",
@@ -52,19 +52,19 @@ self.__precacheManifest = [
     "url": "https://www.airswap.io/static/js/4.5309d04d.chunk.js"
   },
   {
-    "revision": "93973c755fafa1a977a3",
-    "url": "https://www.airswap.io/static/js/3.93973c75.chunk.js"
+    "revision": "51b79bfd70056210bd26",
+    "url": "https://www.airswap.io/static/js/3.51b79bfd.chunk.js"
   },
   {
-    "revision": "cfe5513161b59926f4a6",
-    "url": "https://www.airswap.io/static/js/2.cfe55131.chunk.js"
+    "revision": "c60cf85d3a673fe8aa09",
+    "url": "https://www.airswap.io/static/js/2.c60cf85d.chunk.js"
   },
   {
-    "revision": "c5a9af22d34e30dadcd0",
-    "url": "https://www.airswap.io/static/js/1.c5a9af22.chunk.js"
+    "revision": "17179a2219ed12a8fada",
+    "url": "https://www.airswap.io/static/js/1.17179a22.chunk.js"
   },
   {
-    "revision": "8129c7ed836c4a9c7b15f428ba16a1ea",
+    "revision": "aea73e4c243cd062a42dbe909c8d1970",
     "url": "https://www.airswap.io/index.html"
   }
 ];
