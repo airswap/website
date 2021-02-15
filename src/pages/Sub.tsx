@@ -2,7 +2,7 @@ import React from 'react';
 import SubMenu from '../components/SubMenu';
 import SubDetail from '../components/SubDetail';
 import { useParams, useLocation } from 'react-router-dom';
-import { subMenus, pageAboutTechnology, pageDevelopment, pageTokenAndGov } from '../constants';
+import { subMenus, pageAboutTechnology, pageDevelopment, pageLiquidity } from '../constants';
 import { Redirect } from 'react-router-dom';
 
 const Sub = () => {
@@ -24,8 +24,8 @@ const Sub = () => {
       case 'process':
         data = pageDevelopment;
         break;
-      case 'token':
-        data = pageTokenAndGov;
+      case 'liquidity':
+        data = pageLiquidity;
         break;
       default:
       // code block

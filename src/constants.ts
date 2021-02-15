@@ -41,18 +41,18 @@ export const pageDevelopment = {
   link: `/process`,
   title: 'Build the future of trading',
   description:
-    'Thinkers, designers, and developers all contribute to network development by authoring, discussing, and working on proposals.',
+    'Thinkers, designers, and developers can all contribute and earn. Staking the AirSwap token (AST) is the first step in joining the process.',
   content:
-    '<p>AirSwap is driven by a development system called AirSwap Improvement Proposals (AIP).</p><p>Proposals are for new protocols, smart contracts, maker software, network tooling, applications, and tokenomics. Collaborate with the token and developer communities on the future of the AirSwap network. View active AIPs at <a href="https://github.com/airswap/AIPs/issues" target="_blank">https://github.com/airswap/AIPs/issues</a></p>',
+    '<p>AirSwap is driven by a development system called AirSwap Improvement Proposals (AIP).</p><p>Proposals are for new protocols, smart contracts, maker software, network tooling, applications, tokenomics, and more. Collaborate with the token and developer communities and earn for your contributions. View and learn more about active AIPs at <a href="https://github.com/airswap/AIPs/issues" target="_blank">https://github.com/airswap/AIPs/issues</a></p>',
 };
 
-export const pageTokenAndGov = {
-  link: `/token`,
-  title: 'Use tokens to stake and vote',
+export const pageLiquidity = {
+  link: `/liquidity`,
+  title: 'Start quoting for MetaMask Swaps',
   description:
-    'The AirSwap Token (AST) gives liquidity providers the ability to announce that they’re online and gives community members a voice in governance.',
+    'Trading firms have a huge opportunity in front of them: MetaMask Swaps. By standing up an AirSwap server you can start quoting out of the box.',
   content:
-    '<p>Because AirSwap is a peer-to-peer network, finding a counterparty is the first step in any trade. The underlying AirSwap protocols include the Indexer, which is like a search engine for peers. To be added to this search engine, liquidity providers stake AST. </p> <p>AirSwap tokens are also used by community members to vote on AirSwap Improvement Proposals (AIP) to ratify proposals for selection by network contributors. Browse active AIPs and participate in votes at <a href="https://vote.airswap.io/" target="_blank">https://vote.airswap.io/</a>. </p>',
+    '<p>Over $15M daily volume and growing, MetaMask Swaps is a runaway success. Request-for-quote (RFQ) is the most efficient design for decentralized trading, and without slippage or front-running, a clear winner for everyone on both sides of a trade.</p> <p>Automatically serve prices and settle with an atomic swap. In just a few steps you’re up and running. Learn more at <a href="https://docs.airswap.io/liquidity-providers/run-a-server" target="_blank">https://docs.airswap.io/liquidity-providers/run-a-server</a>.</p>',
 };
 
 export const listPageData = {
@@ -60,7 +60,7 @@ export const listPageData = {
   items: [
     pageAboutTechnology,
     pageDevelopment,
-    pageTokenAndGov,
+    pageLiquidity,
   ],
 };
 
@@ -119,7 +119,7 @@ export const subMenus = [
     to: 'process',
   },
   {
-    label: 'Token and governance',
-    to: 'token',
+    label: 'Providing liquidity',
+    to: 'liquidity',
   },
 ];
