@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "https://www.airswap.io/static/media/RobotoMono-Regular.b4618f1f.ttf"
   },
   {
-    "revision": "bdbaf36f24f3d585b273",
-    "url": "https://www.airswap.io/static/js/main.bdbaf36f.chunk.js"
+    "revision": "86e0d891bb76f267ca92",
+    "url": "https://www.airswap.io/static/js/main.86e0d891.chunk.js"
   },
   {
     "revision": "d6d941b5349800a45605ad9df5d5defb",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "https://www.airswap.io/static/js/1.17179a22.chunk.js"
   },
   {
-    "revision": "aea73e4c243cd062a42dbe909c8d1970",
+    "revision": "b560496965c5e68310353d82f0b3221b",
     "url": "https://www.airswap.io/index.html"
   }
 ];
