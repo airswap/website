@@ -11,7 +11,7 @@ export const AIRSWAP_TRADE_URL = 'https://instant.airswap.io/';
 export const AIRSWAP_VOTE_URL = 'https://activate.codefi.network/staking/airswap/governance';
 export const AIRSWAP_BUILD_URL = 'https://docs.airswap.io/';
 export const AIRSWAP_CHAT_URL = 'https://chat.airswap.io/';
-export const AIRSWAP_SUPPORT_URL = 'https://support.airswap.io/';
+export const AIRSWAP_FAQ_URL = 'https://support.airswap.io/en/collections/1334342-faq';
 export const AIRSWAP_PRIVACY_URL = 'https://www.airswap.io/airswap-privacy-policy.pdf';
 export const AIRSWAP_TERMS_URL = 'https://www.airswap.io/airswap-terms-of-use.pdf';
 export const AIRSWAP_DOCS_URL = 'https://docs.airswap.io';
@@ -19,6 +19,7 @@ export const AIRSWAP_DOCS_URL = 'https://docs.airswap.io';
 export const AIRSWAP_TWITTER = 'https://twitter.com/airswap';
 export const AIRSWAP_DISCORD = 'https://chat.airswap.io';
 export const AIRSWAP_TELEGRAM = 'https://t.me/airswap';
+export const AIRSWAP_REDDIT = 'https://www.reddit.com/r/AirSwap/';
 
 export const SwapSourceMap = {
   [ONEINCH_EXCHANGE_ADDRESS]: '1Inch',
