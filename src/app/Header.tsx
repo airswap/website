@@ -46,8 +46,8 @@ export default function Header() {
           )}
           <MenuContainer>
             <MenuButton label="TRADE" url={AIRSWAP_TRADE_URL} />
-            <MenuButton label="VOTE" url={AIRSWAP_VOTE_URL} />
             <MenuButton label="BUILD" url={AIRSWAP_BUILD_URL} />
+            <MenuButton label="VOTE" url={AIRSWAP_VOTE_URL} />
             <MenuButton label="CHAT" url={AIRSWAP_CHAT_URL} />
           </MenuContainer>
         </HeaderSide>
