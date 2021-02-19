@@ -10,12 +10,13 @@ import { AirSwapLogoContainer, FooterContainer, LinkContainer, LinkText, Contain
 interface LinkProps {
   label: string;
   url: string;
+  blank?: boolean;
 }
 
 function FooterLink(props: LinkProps) {
   return (
     <Flex align="center" direction="row">
-      <Link to={props.url}>
+      <Link to={props.url} blank={props.blank}>
         <LinkText>{props.label}</LinkText>
       </Link>
     </Flex>
@@ -35,8 +36,8 @@ export default function Header() {
         <LinkContainer>
           <FooterLink label="FAQ" url={AIRSWAP_FAQ_URL} />
           <FooterLink label="DOCS" url={AIRSWAP_DOCS_URL} />
-          <FooterLink label="PRIVACY" url={AIRSWAP_PRIVACY_URL} />
-          <FooterLink label="TERMS" url={AIRSWAP_TERMS_URL} />
+          <FooterLink label="PRIVACY" url={AIRSWAP_PRIVACY_URL} blank={true} />
+          <FooterLink label="TERMS" url={AIRSWAP_TERMS_URL} blank={true} />
           <LinkText>
             <span className={'fw-normal'}>COPYRIGHT</span> 2021
           </LinkText>

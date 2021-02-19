@@ -4,6 +4,7 @@ import parseUrl from '../utils/getRelativeUrl';
 import { Link as LinkRouter } from 'react-router-dom';
 interface LinkProps {
   to: string;
+  blank?: boolean;
   children?: React.ReactNode;
   primaryColor?: boolean;
 }
@@ -23,9 +24,9 @@ const Inner = styled.span<LinkFragmentProps>`
 `;
 
 export default function Link(props: LinkProps) {
-  const { primaryColor, to, children } = props;
+  const { primaryColor, to, blank, children } = props;
   const relativeUrl = parseUrl(to);
-  const newTab = to && !relativeUrl;
+  const newTab = to && (!! blank || ! relativeUrl);
 
   if (!newTab) {
     return (

@@ -12,8 +12,8 @@ export const AIRSWAP_VOTE_URL = 'https://activate.codefi.network/staking/airswap
 export const AIRSWAP_BUILD_URL = 'https://community.airswap.io/';
 export const AIRSWAP_CHAT_URL = 'https://chat.airswap.io/';
 export const AIRSWAP_FAQ_URL = 'https://support.airswap.io/en/collections/1334342-faq';
-export const AIRSWAP_PRIVACY_URL = '/airswap-privacy-policy.pdf';
-export const AIRSWAP_TERMS_URL = '/airswap-terms-of-use.pdf';
+export const AIRSWAP_PRIVACY_URL = 'https://www.airswap.io/airswap-privacy-policy.pdf';
+export const AIRSWAP_TERMS_URL = 'https://www.airswap.io/airswap-terms-of-use.pdf';
 export const AIRSWAP_DOCS_URL = 'https://docs.airswap.io';
 
 export const AIRSWAP_TWITTER = 'https://twitter.com/airswap';
