@@ -2,7 +2,7 @@ import React from 'react';
 
 import Flex from '../components/Flex';
 import Link from '../components/Link';
-import { AIRSWAP_PRIVACY_URL, AIRSWAP_FAQ_URL, AIRSWAP_TERMS_URL, AIRSWAP_REDDIT, AIRSWAP_TWITTER, AIRSWAP_DISCORD, AIRSWAP_TELEGRAM, AIRSWAP_DOCS_URL } from '../constants';
+import { AIRSWAP_PRIVACY_URL, AIRSWAP_FAQ_URL, AIRSWAP_TERMS_URL, AIRSWAP_REDDIT, AIRSWAP_TWITTER, AIRSWAP_DISCORD, AIRSWAP_FORUM, AIRSWAP_TELEGRAM, AIRSWAP_DOCS_URL } from '../constants';
 import { ReactComponent as AirSwapLogo } from '../static/airswap-logo.svg';
 import { ReactComponent as DefiPulseLogo } from '../static/defipulse-logo.svg';
 import { AirSwapLogoContainer, FooterContainer, LinkContainer, LinkText, Container } from './styles';
@@ -29,6 +29,7 @@ export default function Header() {
       <FooterContainer>
       <LinkContainer>
           <FooterLink label="DISCORD" url={AIRSWAP_DISCORD} />
+          <FooterLink label="FORUM" url={AIRSWAP_FORUM} />
           <FooterLink label="TWITTER" url={AIRSWAP_TWITTER} />
           <FooterLink label="TELEGRAM" url={AIRSWAP_TELEGRAM} />
           <FooterLink label="REDDIT" url={AIRSWAP_REDDIT} />

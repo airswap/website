@@ -18,6 +18,7 @@ export const AIRSWAP_DOCS_URL = 'https://docs.airswap.io';
 
 export const AIRSWAP_TWITTER = 'https://twitter.com/airswap';
 export const AIRSWAP_DISCORD = 'https://chat.airswap.io';
+export const AIRSWAP_FORUM = 'https://community.airswap.io';
 export const AIRSWAP_TELEGRAM = 'https://t.me/airswap';
 export const AIRSWAP_REDDIT = 'https://www.reddit.com/r/AirSwap/';
 
