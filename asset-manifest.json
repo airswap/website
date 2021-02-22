@@ -1,12 +1,12 @@
 {
-  "main.js": "https://www.airswap.io/static/js/main.b2c8c7fc.chunk.js",
-  "static/js/1.17179a22.chunk.js": "https://www.airswap.io/static/js/1.17179a22.chunk.js",
-  "static/js/2.c60cf85d.chunk.js": "https://www.airswap.io/static/js/2.c60cf85d.chunk.js",
-  "static/js/3.51b79bfd.chunk.js": "https://www.airswap.io/static/js/3.51b79bfd.chunk.js",
-  "static/js/4.5309d04d.chunk.js": "https://www.airswap.io/static/js/4.5309d04d.chunk.js",
+  "main.js": "https://www.airswap.io/static/js/main.de500413.chunk.js",
+  "static/js/1.16bec8a3.chunk.js": "https://www.airswap.io/static/js/1.16bec8a3.chunk.js",
+  "static/js/2.c81dc2a8.chunk.js": "https://www.airswap.io/static/js/2.c81dc2a8.chunk.js",
+  "static/js/3.bdf51d8d.chunk.js": "https://www.airswap.io/static/js/3.bdf51d8d.chunk.js",
+  "static/js/4.977b8ae6.chunk.js": "https://www.airswap.io/static/js/4.977b8ae6.chunk.js",
   "static/js/5.ece21a70.chunk.js": "https://www.airswap.io/static/js/5.ece21a70.chunk.js",
   "static/js/6.46def695.chunk.js": "https://www.airswap.io/static/js/6.46def695.chunk.js",
-  "runtime~main.js": "https://www.airswap.io/static/js/runtime~main.5ae57472.js",
+  "runtime~main.js": "https://www.airswap.io/static/js/runtime~main.dcdac07a.js",
   "static/media/RobotoMono-Regular.ttf": "https://www.airswap.io/static/media/RobotoMono-Regular.b4618f1f.ttf",
   "static/media/RobotoMono-Bold.ttf": "https://www.airswap.io/static/media/RobotoMono-Bold.c0c4a337.ttf",
   "static/media/Lora-Regular.ttf": "https://www.airswap.io/static/media/Lora-Regular.4b658006.ttf",
@@ -16,6 +16,6 @@
   "static/media/arrow-right.d6d941b5.svg": "https://www.airswap.io/static/media/arrow-right.d6d941b5.svg",
   "static/media/RobotoMono-Medium.ttf": "https://www.airswap.io/static/media/RobotoMono-Medium.5a45b286.ttf",
   "index.html": "https://www.airswap.io/index.html",
-  "precache-manifest.27671193410da4a93e438561323a6224.js": "https://www.airswap.io/precache-manifest.27671193410da4a93e438561323a6224.js",
+  "precache-manifest.efb4e3a156889f4e69926f86f0acb91f.js": "https://www.airswap.io/precache-manifest.efb4e3a156889f4e69926f86f0acb91f.js",
   "service-worker.js": "https://www.airswap.io/service-worker.js"
 }
