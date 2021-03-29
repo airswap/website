@@ -15,6 +15,7 @@ export const PluginItems = styled.div`
   display: flex;
   flex-flow: wrap;
   margin: 0 -12px;
+  justify-content: center;
   @media ${responsive.smMax} {
     margin: 0;
     padding: 0 28px;
@@ -22,7 +23,7 @@ export const PluginItems = styled.div`
 `;
 
 export const PluginItem = styled.div`
-  width: 33.33%;
+  width: 40%;
   padding: 0 12px;
   @media ${responsive.smMax} {
     width: 100%;

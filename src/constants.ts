@@ -7,7 +7,6 @@ export const TOTLE_ADDRESS = '0x91f3935ed7a4ee8d15023c5df26895b26ae98015';
 
 // AirSwap URL
 export const AIRSWAP_EXPLORE_URL = 'https://explorer.airswap.io/';
-export const AIRSWAP_TRADE_URL = 'https://instant.airswap.io/';
 export const AIRSWAP_VOTE_URL = 'https://activate.codefi.network/staking/airswap/governance';
 export const AIRSWAP_BUILD_URL = 'https://community.airswap.io/';
 export const AIRSWAP_CHAT_URL = 'https://chat.airswap.io/';
@@ -90,22 +89,16 @@ export const pluginData = {
   title: 'Plug in your wallet and go.',
   items: [
     {
-      title: 'AirSwap Instant',
-      description: 'Swap instantly with automated liquidity providers.',
-      link: 'https://instant.airswap.io/',
-      thumbnail: `${process.env.PUBLIC_URL}/images/airswap_instant.png`,
+      title: 'MetaMask',
+      description: 'Swap directly from the MetaMask wallet browser extension.',
+      link: 'https://metamask.io/swaps.html',
+      thumbnail: `${process.env.PUBLIC_URL}/images/metmask.png`,
     },
     {
       title: 'AirSwap OTC',
       description: 'Create and share custom swaps with other traders on the web.',
       link: 'https://trader.airswap.io/',
       thumbnail: `${process.env.PUBLIC_URL}/images/airswap_otc.png`,
-    },
-    {
-      title: 'MetaMask',
-      description: 'Swap directly from the MetaMask browser extension.',
-      link: 'https://www.metamask.io/',
-      thumbnail: `${process.env.PUBLIC_URL}/images/metmask.png`,
     },
   ],
 };

@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react';
 const Volume = React.lazy(() => import('../widgets/Volume'));
-import { AIRSWAP_BUILD_URL, AIRSWAP_CHAT_URL, AIRSWAP_TRADE_URL, AIRSWAP_VOTE_URL } from '../constants';
+import { AIRSWAP_BUILD_URL, AIRSWAP_CHAT_URL, AIRSWAP_EXPLORE_URL, AIRSWAP_VOTE_URL } from '../constants';
 import { ReactComponent as AirSwapLogo } from '../static/airswap-logo.svg';
 import { AirSwapLogoContainer, HeaderContainer, MenuContainer, HeaderSide, Container, MenuButtonOuter } from './styles';
 import Button from '../components/Button';
@@ -45,7 +45,7 @@ export default function Header() {
             </Suspense>
           )}
           <MenuContainer>
-            <MenuButton label="TRADE" url={AIRSWAP_TRADE_URL} />
+            <MenuButton label="EXPLORE" url={AIRSWAP_EXPLORE_URL} />
             <MenuButton label="BUILD" url={AIRSWAP_BUILD_URL} />
             <MenuButton label="VOTE" url={AIRSWAP_VOTE_URL} />
             <MenuButton label="CHAT" url={AIRSWAP_CHAT_URL} />
