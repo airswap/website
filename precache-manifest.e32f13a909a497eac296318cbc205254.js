@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "https://www.airswap.io/static/js/1.0f75ccde.chunk.js"
   },
   {
-    "revision": "717e01fe72783b15b6cd3fa58542cd10",
+    "revision": "ecca32757f0e1ff6a7d44f4df18f0a68",
     "url": "https://www.airswap.io/index.html"
   }
 ];
