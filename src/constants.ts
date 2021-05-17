@@ -43,7 +43,7 @@ export const pageDevelopment = {
   description:
     'Thinkers, designers, and developers can all contribute and earn. Staking the AirSwap token (AST) is the first step in joining the process.',
   content:
-    '<p>AirSwap is driven by a development system called AirSwap Improvement Proposals (AIP).</p><p>Proposals are for new protocols, smart contracts, maker software, network tooling, applications, tokenomics, and more. Collaborate with the token and developer communities and earn for your contributions. View and learn more about active AIPs at <a href="https://github.com/airswap/AIPs/issues" target="_blank">https://github.com/airswap/AIPs/issues</a></p>',
+    '<p>AirSwap is driven by a development system called AirSwap Improvement Proposals (AIP).</p><p>Proposals are for new protocols, smart contracts, maker software, network tooling, applications, tokenomics, and more. Collaborate with the token and developer communities and earn for your contributions.</p><p><a href="https://community.airswap.io/c/proposals/5" target="_blank">View and learn more about active AIPs</a></p>',
 };
 
 export const pageLiquidity = {
