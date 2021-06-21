@@ -52,7 +52,7 @@ export const pageLiquidity = {
   description:
     'Trading firms have a huge opportunity in front of them: MetaMask Swaps. By standing up an AirSwap server you can start quoting out of the box.',
   content:
-    '<p>Over $15M daily volume and growing, MetaMask Swaps is a runaway success. Request-for-quote (RFQ) is the most efficient design for decentralized trading, and without slippage or front-running; a clear winner for everyone on both sides of a trade.</p> <p>Automatically serve quotes and settle with an atomic swap. In just a few steps you’re up and running. Learn more at <a href="https://docs.airswap.io/liquidity-providers/run-a-server" target="_blank">https://docs.airswap.io/liquidity-providers/run-a-server</a>.</p>',
+    '<p>Over $15M daily volume and growing, MetaMask Swaps is a runaway success. Request-for-quote (RFQ) is the most efficient design for decentralized trading, and without slippage or front-running; a clear winner for everyone on both sides of a trade.</p> <p>Automatically serve quotes and settle with an atomic swap. In just a few steps you’re up and running. Learn more at <a href="https://docs.airswap.io/makers/run-a-server" target="_blank">https://docs.airswap.io/makers/run-a-server</a>.</p>',
 };
 
 export const listPageData = {
